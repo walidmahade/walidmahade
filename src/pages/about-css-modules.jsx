@@ -1,7 +1,7 @@
 import React from "react";
 import styles from "./about-css-modules.module.scss";
 import Container from "../components/container";
-import Nav from "../components/nav";
+import Header from "../components/header";
 
 console.log(styles);
 
@@ -17,7 +17,7 @@ const User = props => (
 
 export default () => (
     <div className="App">
-        <Nav />
+        <Header />
         <Container>
             <h1>About CSS Modules</h1>
             <p>CSS Modules are cool</p>

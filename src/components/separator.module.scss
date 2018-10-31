@@ -1,0 +1,27 @@
+.separator {
+    width: 100%;
+    position: relative;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 600px;
+    width: 90%;
+    margin: 0 auto;
+}
+
+.leftc,
+.rightc {
+    height: 6px;
+    width: 6px;
+    border: 1px solid #999;
+    border-radius: 50%;
+}
+
+.rightc {
+}
+
+.line {
+    height: 1px;
+    width: calc(100% - 12px);
+    background: #999;
+}
