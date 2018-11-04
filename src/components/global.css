@@ -83,10 +83,10 @@ video {
     padding: 0;
     border: 0;
     font-size: 100%;
-    /* font-family: "PT Serif", serif; */
-    font-family: "Frutiger Neue W01 Light";
+    font-family: "Open Sans", serif;
+    /* font-family: "Frutiger Neue W01 Light"; */
     vertical-align: baseline;
-    line-height: 2;
+    line-height: 1.2;
     color: rgba(0, 0, 0, 0.84);
     letter-spacing: 0.5px;
 }
@@ -143,9 +143,9 @@ h3,
 h4,
 h5,
 h6 {
-    /* font-family: "PT Sans", sans-serif; */
+    font-family: "PT Sans", sans-serif;
     /* font-family: "Frutiger Neue W01 Bd"; */
-    font-family: "Frutiger Neue W01 Light";
+    /* font-family: "Frutiger Neue W01 Light"; */
     font-weight: bold;
     color: rgba(0, 0, 0, 0.84);
 }
