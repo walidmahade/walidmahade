@@ -14,10 +14,10 @@ export default () => (
                     type="text/javascript"
                     src="//fast.fonts.net/jsapi/4e167be2-6a45-4beb-821d-ddb337f6391d.js"
                 /> */}
-                <link
+                {/* <link
                     href="https://fonts.googleapis.com/css?family=Open+Sans:400|PT+Sans:700|PT+Serif"
                     rel="stylesheet"
-                />
+                /> */}
             </Helmet>
 
             <div className={navStyles.brand}>

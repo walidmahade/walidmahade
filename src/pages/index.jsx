@@ -25,6 +25,20 @@ export default () => (
                 <div className={styles.small}>
                     working with the following tech
                 </div>
+                <div className={styles.wrapper}>
+                    <div className="item">
+                        <img src="" alt="" />
+                    </div>
+                    <div className="item">
+                        <img src="" alt="" />
+                    </div>
+                    <div className="item">
+                        <img src="" alt="" />
+                    </div>
+                    <div className="item">
+                        <img src="" alt="" />
+                    </div>
+                </div>
             </section>
             <Footer />
         </Container>
