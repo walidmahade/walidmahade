@@ -1,15 +1,28 @@
-$columns: 12;
+// $columns: 12;
 
-%float-styles {
-    float: left;
+// %float-styles {
+//     float: left;
+// }
+
+// @mixin col-x-list {
+//     @for $i from 1 through $columns {
+//         .col-#{$i}-m {
+//             @extend %float-styles;
+//         }
+//     }
+// }
+
+// @include col-x-list;
+
+.d-flex {
+    display: flex;
+    flex-wrap: wrap;
 }
 
-@mixin col-x-list {
-    @for $i from 1 through $columns {
-        .col-#{$i}-m {
-            @extend %float-styles;
-        }
-    }
+.j-center {
+    justify-content: center;
 }
 
-@include col-x-list;
+.a-center {
+    align-items: center;
+}

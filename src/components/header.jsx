@@ -34,7 +34,7 @@ export default () => (
                     Me
                 </Link>
                 <Link
-                    to="/about-css-modules"
+                    to="/about"
                     className={navStyles.navItem}
                     activeClassName={navStyles.active}
                 >

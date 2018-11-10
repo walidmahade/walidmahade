@@ -11,7 +11,6 @@ export default () => (
             <div style={{ color: `teal` }}>
                 <p>Send us a message!</p>
             </div>
-            <hr />
             <Footer />
         </Container>
     </div>
