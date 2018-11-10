@@ -1,0 +1,19 @@
+// all my variables
+@import "_vars";
+// scss mixins
+@import "_mixins";
+// eric mayers reset
+@import "_reset";
+// typography
+@import "_typography";
+// utility classes
+@import "_helpers";
+// layout styles
+@import "_grid";
+
+/*====================
+    azaira styles
+====================*/
+div#mti_wfs_colophon {
+    display: none !important;
+}

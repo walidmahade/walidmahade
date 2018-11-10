@@ -1,7 +1,7 @@
 import React from "react";
 import Header from "../components/header";
 import Footer from "../components/footer";
-import Container from "../components/container";
+import Container from "../components/global/container";
 import Me from "../static/me-bw.jpeg";
 import styles from "./styles/index.module.scss";
 

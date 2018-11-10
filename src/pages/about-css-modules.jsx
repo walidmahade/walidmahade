@@ -1,6 +1,6 @@
 import React from "react";
 import styles from "./about-css-modules.module.scss";
-import Container from "../components/container";
+import Container from "../components/global/container";
 import Header from "../components/header";
 
 console.log(styles);

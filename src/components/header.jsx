@@ -1,10 +1,10 @@
 import React from "react";
 import navStyles from "./header.module.scss";
-import "./global.css";
+import "./styles/global.scss";
 import { Link } from "gatsby";
 import { Helmet } from "react-helmet";
 import Logo from "../static/logo.png";
-import Separator from "./separator";
+import Separator from "./global/separator";
 
 export default () => (
     <header>
