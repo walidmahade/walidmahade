@@ -4,20 +4,19 @@ import "./styles/global.scss";
 import { Link } from "gatsby";
 import { Helmet } from "react-helmet";
 import Logo from "../static/logo.png";
+import Favicon from "../static/favicon.ico";
 import Separator from "./global/separator";
 
 export default () => (
     <header>
         <nav className={navStyles.mainMenu}>
             <Helmet>
-                {/* <script
-                    type="text/javascript"
-                    src="//fast.fonts.net/jsapi/4e167be2-6a45-4beb-821d-ddb337f6391d.js"
-                /> */}
                 {/* <link
                     href="https://fonts.googleapis.com/css?family=Open+Sans:400|PT+Sans:700|PT+Serif"
                     rel="stylesheet"
                 /> */}
+                <title>| Mahade Walid</title>
+                <link rel="shortcut icon" href={Favicon} />
             </Helmet>
 
             <div className={navStyles.brand}>
@@ -51,6 +50,8 @@ export default () => (
             </div>
         </nav>
 
-        <Separator />
+        <div className="mt-10">
+            <Separator />
+        </div>
     </header>
 );

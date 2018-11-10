@@ -13,8 +13,9 @@
 .rightc {
     height: 6px;
     width: 6px;
-    border: 1px solid #999;
+    border: 1px solid #e8e8e8;
     border-radius: 50%;
+    display: none;
 }
 
 .rightc {
@@ -23,5 +24,6 @@
 .line {
     height: 1px;
     width: calc(100% - 12px);
-    background: #999;
+    background: #e8e8e8;
+    background: linear-gradient(to right, #fff, rgba(#000, 0.1), #fff);
 }
