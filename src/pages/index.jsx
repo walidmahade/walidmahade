@@ -43,6 +43,11 @@ export default () => (
                         <img src={mongo} alt="" />
                     </div>
                 </div>
+                <div className={styles.small}>
+                    I have been working as a freelance web developer for past 3
+                    years. I have also worked with Wordpress, Shopify, Laravel.
+                    The main source of my freelance work is Upwork.
+                </div>
             </section>
             <Footer />
         </Container>
