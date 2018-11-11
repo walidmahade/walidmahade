@@ -3,7 +3,7 @@ import styles from "./footer.module.scss";
 import Separator from "./global/separator";
 
 export default () => (
-    <footer className={styles.footer}>
+    <footer className={styles.footer + " pt-35 pb-35"}>
         <div className="mt-20 mb-35">
             <Separator />
         </div>
