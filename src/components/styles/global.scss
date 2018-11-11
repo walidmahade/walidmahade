@@ -17,3 +17,23 @@
 div#mti_wfs_colophon {
     display: none !important;
 }
+
+/* -----
+SVG Icons - svgicons.sparkk.fr
+----- */
+
+.svg-icon {
+    width: 40px;
+    height: 40px;
+}
+
+.svg-icon path,
+.svg-icon polygon,
+.svg-icon rect {
+    fill: #000;
+}
+
+.svg-icon circle {
+    stroke: #000;
+    stroke-width: 1;
+}

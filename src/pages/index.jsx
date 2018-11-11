@@ -8,6 +8,7 @@ import nodelogo from "../static/nodejs.png";
 import mongo from "../static/mongodb.png";
 import reactLogo from "../static/reactjs.png";
 import styles from "./styles/index.module.scss";
+import Separator from "../components/global/separator";
 
 export default () => (
     <div className="App text-center">
@@ -49,6 +50,16 @@ export default () => (
                     The main source of my freelance work is Upwork.
                 </div>
             </section>
+
+            <div className="mt-20 mb-20">{/* <Separator /> */}</div>
+
+            <section className={styles.about}>
+                <h1>
+                    Currently I am looking for a team to join where I can bring
+                    value as well as grow a developer.
+                </h1>
+            </section>
+
             <Footer />
         </Container>
     </div>
