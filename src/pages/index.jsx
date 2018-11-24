@@ -57,10 +57,31 @@ export default () => (
                     value as well as grow a developer.
                 </h1>
             </section>
+            <section className={styles.moreLinks + " mt-35 mb-35"}>
+                <p>
+                    See also:
+                    <a href="/faq">FAQ.</a>
+                    <a href="/personal-values">Personal Values.</a>
+                    <a href="/blog">Articles.</a>
+                    <a href="/video">Video.</a>
+                </p>
+            </section>
+
+            {/* <section className={styles.news}>
+                <div className={styles.tech + " mb-35"}>
+                    <div className={styles.bold}>Latest News</div>
+                </div>
+                <ul className={styles.newsItem}>
+                    <li>
+                        <strong>2017-10-25</strong>: Earned Fcc Front End
+                        developer certificate
+                    </li>
+                </ul>
+            </section> */}
         </Container>
 
-        <section className=" mt-35 mb-35">
-            <div className={styles.tech + " mb-35"}>
+        <section className=" mt-35 mb-35 pt-35">
+            <div className={styles.tech + " mb-35 mt-35"}>
                 <div className={styles.bold}>Testimonials</div>
             </div>
             <div className={styles.testimonials + " d-flex j-sb"}>
@@ -72,7 +93,7 @@ export default () => (
                     </div>
                 </div>
                 <div className={styles.testimonial + " mb-20"}>
-                    <p>Nearly perfect qualified candidate for this position.</p>
+                    Nearly perfect qualified candidate for this position.
                     <div className={styles.clientName + " text-right"}>
                         -- Belinda Tran.
                     </div>

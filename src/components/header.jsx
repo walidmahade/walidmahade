@@ -17,6 +17,10 @@ export default () => (
                 /> */}
                 <title>| Mahade Walid</title>
                 <link rel="shortcut icon" href={Favicon} />
+                <link
+                    rel="stylesheet"
+                    href="https://use.typekit.net/mny7oki.css"
+                />
             </Helmet>
 
             <div className={navStyles.brand}>
@@ -34,11 +38,32 @@ export default () => (
                     Me
                 </Link>
                 <Link
-                    to="/about"
+                    to="/portfolio"
                     className={navStyles.navItem}
                     activeClassName={navStyles.active}
                 >
-                    About
+                    Code
+                </Link>
+                <Link
+                    to="/objects"
+                    className={navStyles.navItem}
+                    activeClassName={navStyles.active}
+                >
+                    Objects
+                </Link>
+                <Link
+                    to="/photo"
+                    className={navStyles.navItem}
+                    activeClassName={navStyles.active}
+                >
+                    Photo
+                </Link>
+                <Link
+                    to="/video"
+                    className={navStyles.navItem}
+                    activeClassName={navStyles.active}
+                >
+                    Video
                 </Link>
                 <Link
                     to="/contact"
@@ -47,10 +72,23 @@ export default () => (
                 >
                     Contact
                 </Link>
+                <Link
+                    to="/blog"
+                    className={navStyles.navItem + " " + navStyles.hasDropdown}
+                    activeClassName={navStyles.active}
+                >
+                    Blog
+                    <div className={navStyles.dropdown}>
+                        <Link to="/">Home</Link>
+                        <Link to="/">Home</Link>
+                        <Link to="/">Home</Link>
+                        <Link to="/">Home</Link>
+                    </div>
+                </Link>
             </div>
         </nav>
 
-        <div className="mt-10">
+        <div className="mt-20 mb-35">
             <Separator />
         </div>
     </header>

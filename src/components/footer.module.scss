@@ -15,4 +15,17 @@
             width: 100%;
         }
     }
+
+    .stackoverflow {
+        width: 200px;
+    }
+
+    .moreLinks {
+        a {
+            text-decoration: underline;
+            font-weight: bold;
+            margin: 0 6px;
+            font-family: inherit;
+        }
+    }
 }
