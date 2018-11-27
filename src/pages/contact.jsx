@@ -5,11 +5,12 @@ import Footer from "../components/footer";
 import Container from "../components/global/container";
 
 export default () => (
-    <div className="App">
+    <div className="contact">
         <Header />
         <Container>
-            <div style={{ color: `teal` }}>
-                <p>Send us a message!</p>
+            <div className="text-center">
+                <p>Send me message!</p>
+                <h3>hi@mahade.me</h3>
             </div>
             <Footer />
         </Container>
