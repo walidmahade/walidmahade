@@ -6,6 +6,7 @@ import Me from "../static/me-bw.jpeg";
 import jslogo from "../static/js.png";
 import csslogo from "../static/css3.png";
 import htmllogo from "../static/html.png";
+import Me2 from "../static/me-spray.jpg";
 // import nodelogo from "../static/nodejs.png";
 // import mongo from "../static/mongodb.png";
 import reactLogo from "../static/reactjs.png";
@@ -17,7 +18,7 @@ export default () => (
         <Header />
         <Container>
             <section className={styles.me + " mt-35 mb-35"}>
-                <img src={Me} alt="walid_mahade" />
+                <img src={Me2} alt="walid_mahade" />
             </section>
             <section className={styles.about}>
                 <h1>
