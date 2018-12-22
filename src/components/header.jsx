@@ -29,7 +29,7 @@ export default class Header extends React.Component {
             <header>
                 <nav className="mainMenu">
                     <Helmet>
-                        <title>| Mahade Walid</title>
+                        <title>Mahade Walid | Full Stack Web Developer</title>
                         <link rel="shortcut icon" href={Favicon} />
                         <link
                             rel="stylesheet"
