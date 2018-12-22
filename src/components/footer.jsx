@@ -1,21 +1,22 @@
 import React from "react";
 import styles from "./footer.module.scss";
 import Separator from "./global/separator";
+import { Link } from "gatsby";
 
 export default () => (
-    <footer className={styles.footer + " pt-35 pb-35"}>
+    <footer className={styles.footer + " pt-35 pb-35 text-center"}>
         <div className="mt-20 mb-35">
             <Separator />
         </div>
 
         <section className={styles.moreLinks + " mt-35 mb-35"}>
             <p>
-                <a href="/about">About.</a>
-                <a href="/faq">FAQ.</a>
-                <a href="/personal-values">Personal Values.</a>
-                <a href="/blog">Articles.</a>
-                <a href="/video">Video.</a>
-                <a href="/contact">Contact</a>
+                <Link to="/about">About.</Link>
+                <Link to="/faq">FAQ.</Link>
+                <Link to="/personal-values">Personal Values.</Link>
+                <Link to="/blog">Articles.</Link>
+                <Link to="/video">Video.</Link>
+                <Link to="/contact">Contact</Link>
             </p>
         </section>
 

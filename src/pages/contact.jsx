@@ -9,7 +9,7 @@ export default () => (
         <Header />
         <Container>
             <div className="text-center">
-                <p>Send me message!</p>
+                <p>Send me message at</p>
                 <h3>hi@mahade.me</h3>
             </div>
             <Footer />
