@@ -86,7 +86,7 @@ export default class Header extends React.Component {
                         >
                             Contact
                         </Link>
-                        <Link
+                        {/* <Link
                             to="/blog"
                             className="navItem hasDropdown"
                             activeClassName="active"
@@ -103,7 +103,7 @@ export default class Header extends React.Component {
                                 <Link to="/">Life</Link>
                                 <Link to="/">Lost</Link>
                             </div>
-                        </Link>
+                        </Link> */}
                     </div>
                 </nav>
 
