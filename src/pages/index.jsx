@@ -95,6 +95,12 @@ export default () => (
             </div>
             <div className={styles.testimonials + " d-flex j-sb"}>
                 <div className={styles.testimonial + " mb-20"}>
+                    "Mahade is a god"
+                    <div className={styles.clientName + " text-right"}>
+                        -- Sir. Charles B.
+                    </div>
+                </div>
+                <div className={styles.testimonial + " mb-20"}>
                     Walid is experienced, punctual and has been a pleasure to
                     work with! We are hiring him for other on-going projects.
                     <div className={styles.clientName + " text-right"}>
@@ -113,12 +119,6 @@ export default () => (
                     definitely work with him again!!! Thanks.
                     <div className={styles.clientName + " text-right"}>
                         -- Anna Rob.
-                    </div>
-                </div>
-                <div className={styles.testimonial + " mb-20"}>
-                    Quick and great work.
-                    <div className={styles.clientName + " text-right"}>
-                        -- Dan Candell.
                     </div>
                 </div>
                 <div className={styles.testimonial + " mb-20"}>
