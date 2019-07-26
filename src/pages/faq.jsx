@@ -7,7 +7,7 @@ const Faq = () => (
         <ol>
             <li className="faq-q">
                 <h3 className="q">How old are you?</h3>
-                <p className="ans"> Age clock</p>
+                <p className="ans">24</p>
             </li>
             <li className="faq-q">
                 <h3 className="q">Why do you want to a web developer?</h3>
@@ -17,15 +17,15 @@ const Faq = () => (
             </li>
             <li className="faq-q">
                 <h3 className="q">My current tech stack?</h3>
-                <p className="ans">Age clock</p>
+                <p className="ans">Javascript, Php, HTML, CSS</p>
             </li>
             <li className="faq-q">
                 <h3 className="q">Hobbies?</h3>
-                <p className="ans">Age clock</p>
+                <p className="ans">Books, Soccer, Computer Hardware</p>
             </li>
             <li className="faq-q">
                 <h3 className="q">Future plan?</h3>
-                <p className="ans">Age clock</p>
+                <p className="ans">Happy Death.</p>
             </li>
         </ol>
     </section>

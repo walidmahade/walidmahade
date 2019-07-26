@@ -6,7 +6,7 @@ import { Link } from "gatsby";
 export default () => (
     <footer className={styles.footer + " pt-35 pb-35 text-center"}>
         <div className="mt-20 mb-35">
-            <Separator />
+            <Separator /> 
         </div>
 
         <section className={styles.moreLinks + " mt-35 mb-35"}>
