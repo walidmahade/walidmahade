@@ -1,28 +1,27 @@
 import React from "react";
-import styles from "./footer.module.scss";
 import Separator from "./global/separator";
-import { Link } from "gatsby";
+import Link from 'next/link'
 
 export default () => (
-    <footer className={styles.footer + " pt-35 pb-35 text-center"}>
+    <footer className={"footer" + " pt-35 pb-35 text-center"}>
         <div className="mt-20 mb-35">
             <Separator /> 
         </div>
 
-        <section className={styles.moreLinks + " mt-35 mb-35"}>
+        <section className={"moreLinks" + " mt-35 mb-35"}>
             <p>
-                <Link to="/about">About.</Link>
-                <Link to="/faq">FAQ.</Link>
-                <Link to="/personal-values">Personal Values.</Link>
-                <Link to="/blog">Articles.</Link>
-                <Link to="/video">Video.</Link>
-                <Link to="/contact">Contact</Link>
+                <Link href="/about"><a>About.</a></Link>
+                <Link href="/faq"><a>FAQ.</a></Link>
+                <Link href="/personal-values"><a>Personal Values.</a></Link>
+                <Link href="/blog"><a>Articles.</a></Link>
+                <Link href="/video"><a>Video.</a></Link>
+                <Link href="/contact"><a>Contact</a></Link>
             </p>
         </section>
 
-        <div className={styles.findMe + " d-flex j-center a-center"}>
+        <div className={"findMe" + " d-flex j-center a-center"}>
             {/* github */}
-            <div className={styles.icon}>
+            <div className={"icon"}>
                 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512">
                     <path
                         d="M512 256c0 127.969-93.895 234.005-216.555 252.98-2.769.428-5.559.815-8.359 1.149a255.316 255.316 0 0 1-27.429 1.839 212.221 212.221 0 0 1-7.314.001 255.333 255.333 0 0 1-27.429-1.839c-2.8-.334-5.59-.721-8.359-1.149C93.895 490.005 0 383.969 0 256 0 114.615 114.615 0 256 0s256 114.615 256 256z"
@@ -35,14 +34,14 @@ export default () => (
                 </svg>
             </div>
             {/* stackover flow */}
-            <div className={styles.icon + " stackoverflow"}>
+            <div className={"icon" + " stackoverflow"}>
                 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 120 120">
                     <path d="M84.4 93.8V70.6h7.7v30.9H22.6V70.6h7.7v23.2z" />
                     <path d="M38.8 68.4l37.8 7.9 1.6-7.6-37.8-7.9-1.6 7.6zm5-18l35 16.3 3.2-7-35-16.4-3.2 7.1zm9.7-17.2l29.7 24.7 4.9-5.9-29.7-24.7-4.9 5.9zm19.2-18.3l-6.2 4.6 23 31 6.2-4.6-23-31zM38 86h38.6v-7.7H38V86z" />
                 </svg>
             </div>
             {/* facebook */}
-            <div className={styles.icon}>
+            <div className={"icon"}>
                 <svg className="svg-icon" viewBox="0 0 20 20">
                     <path
                         fill="none"
@@ -51,7 +50,7 @@ export default () => (
                 </svg>
             </div>
             {/* instagram */}
-            <div className={styles.icon}>
+            <div className={"icon"}>
                 <svg className="svg-icon" viewBox="0 0 20 20">
                     <path
                         fill="none"
@@ -60,7 +59,7 @@ export default () => (
                 </svg>
             </div>
             {/* youtube */}
-            <div className={styles.icon}>
+            <div className={"icon"}>
                 <svg className="svg-icon" viewBox="0 0 20 20">
                     <path
                         fill="none"

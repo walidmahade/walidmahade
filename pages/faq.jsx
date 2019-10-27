@@ -1,6 +1,6 @@
 import React from "react";
 import Page from "../components/layoutmaster";
-import "./styles/faq.scss";
+import "../styles/faq.scss";
 
 const Faq = () => (
     <section className="text-left" id="faq">

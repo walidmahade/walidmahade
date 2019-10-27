@@ -1,15 +1,17 @@
 // all my variables
-@import "_vars";
-// scss mixins
-@import "_mixins";
-// eric mayers reset
-@import "_reset";
-// typography
-@import "_typography";
-// utility classes
-@import "_helpers";
-// layout styles
-@import "_grid";
+@import "typography";
+@import "vars";
+@import "mixins";
+@import "reset";
+@import "helpers";
+@import "container";
+@import "separator";
+
+@import "grid";
+
+@import "header";
+@import "footer";
+
 
 /*====================
     azaira styles

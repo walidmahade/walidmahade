@@ -1,22 +1,17 @@
 {
-    "name": "gatsby-starter-hello-world",
-    "description": "Mahade.me",
-    "license": "MIT",
-    "scripts": {
-        "develop": "gatsby develop",
-        "build": "gatsby build",
-        "serve": "gatsby serve"
-    },
-    "dependencies": {
-        "fs": "0.0.1-security",
-        "gatsby": "^2.13.41",
-        "gatsby-cli": "^2.7.20",
-        "gatsby-plugin-react-helmet": "^3.1.2",
-        "gatsby-plugin-sass": "^2.1.3",
-        "gatsby-plugin-typography": "^2.3.2",
-        "node-sass": "^4.9.4",
-        "react": "^16.8.6",
-        "react-dom": "^16.8.6",
-        "react-helmet": "^5.2.1"
-    }
+  "name": "mahade.dev",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start"
+  },
+  "dependencies": {
+    "@zeit/next-sass": "^1.0.1",
+    "next": "9.1.1",
+    "node-sass": "^4.13.0",
+    "react": "16.11.0",
+    "react-dom": "16.11.0"
+  }
 }

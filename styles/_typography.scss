@@ -1,0 +1,40 @@
+/* 
+font-family: 'Monoton', cursive;
+font-family: 'Josefin Sans', sans-serif;
+font-family: 'Montserrat Alternates', sans-serif;
+
+font-family: 'Poppins', sans-serif;
+font-family: 'Open Sans', sans-serif;
+*/
+
+//@import url('https://fonts.googleapis.com/css?family=Josefin+Sans:400,700|Monoton|Montserrat+Alternates:400,700&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Open+Sans:400,600|Monoton|Poppins:600,700&display=swap');
+
+$dfont: 'Monoton', cursive;
+$hfont: 'Poppins', sans-serif;
+$bfont: 'Open Sans', sans-serif;
+
+body,
+html,
+p,
+div,
+input {
+    font-family: $bfont;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    font-family: $hfont;
+    font-weight: 700;
+}
+body,
+html,
+p,
+div,
+input {
+    font-weight: 400;
+}
