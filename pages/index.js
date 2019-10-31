@@ -1,21 +1,19 @@
 import React from "react";
-import Header from "../components/header";
-import Footer from "../components/footer";
+import LayoutMaster from "../components/layoutmaster";
 import Container from "../components/global/container";
 import "../styles/index.scss";
+import Link from "next/link";
 
 export default () => (
-    <div className="App text-center">
-        <Header />
+    <LayoutMaster className="text-center">
         <Container>
             <section className={"me mt-35 mb-35"}>
-                <img src="/images/me-spray.jpg" alt="walid_mahade" />
+                {/* <img src="/images/me-spray.jpg" alt="walid_mahade" /> */}
             </section>
             <section className="about">
                 <h1>
                     Hi, I am Mahade. A self taught web developer living in
-                    Bangladesh. I love developing apps, photography & playing
-                    guitar.
+                    Bangladesh.<br/> I love developing websites and webapps using Reacs.Js, Redux, Node.Js, Express, MongoDB.
                 </h1>
             </section>
 
@@ -60,24 +58,24 @@ export default () => (
             <section className={"moreLinks" + " mt-35 mb-35"}>
                 <p>
                     See also:
-                    <a href="/faq">FAQ.</a>
-                    <a href="/personal-values">Personal Values.</a>
-                    <a href="/blog">Articles.</a>
-                    <a href="/video">Video.</a>
+                    <Link href={"/faq"}><a>FAQ.</a></Link>
+                    <Link href={"/personal-values"}><a>Personal Values.</a></Link>
+                    <Link href={"/blog"}><a>Articles.</a></Link>
+                    <Link href={"/video"}><a>Video.</a></Link>
                 </p>
             </section>
 
             {/* <section className={"news"}>
-                <div className={"tech" + " mb-35"}>
-                    <h2 className={"bold"}>Latest News</h2>
-                </div>
-                <ul className={"newsItem"}>
-                    <li>
-                        <strong>2017-10-25</strong>: Earned Fcc Front End
-                        developer certificate
-                    </li>
-                </ul>
-            </section> */}
+        <div className={"tech" + " mb-35"}>
+            <h2 className={"bold"}>Latest News</h2>
+        </div>
+        <ul className={"newsItem"}>
+            <li>
+                <strong>2017-10-25</strong>: Earned Fcc Front End
+                developer certificate
+            </li>
+        </ul>
+    </section> */}
         </Container>
 
         <section className=" mt-35 mb-35 pt-35">
@@ -86,9 +84,9 @@ export default () => (
             </div>
             <div className={"testimonials" + " d-flex j-sb"}>
                 <div className={"testimonial" + " mb-20"}>
-                    "Mahade is a god"
+                    "We have worked together in a few jobs now, and will collaborate again in the future! He's my "secret weapon" to getting websites done fast!!! Thanks Walid! "
                     <div className={"clientName" + " text-right"}>
-                        -- Sir. Charles B.
+                        -- Matt Ward.
                     </div>
                 </div>
                 <div className={"testimonial" + " mb-20"}>
@@ -105,14 +103,6 @@ export default () => (
                     </div>
                 </div>
                 <div className={"testimonial" + " mb-20"}>
-                    Mahade is very knowledgeable and skilled freelancer. He
-                    delivered all the tasks on time and done quality work. Will
-                    definitely work with him again!!! Thanks.
-                    <div className={"clientName" + " text-right"}>
-                        -- Anna Rob.
-                    </div>
-                </div>
-                <div className={"testimonial" + " mb-20"}>
                     Very responsive and completed project on time.
                     <div className={"clientName" + " text-right"}>
                         -- Robert Guinn.
@@ -124,9 +114,15 @@ export default () => (
                         -- Sheryl Stresser.
                     </div>
                 </div>
+                <div className={"testimonial" + " mb-20"}>
+                    Mahade is very knowledgeable and skilled freelancer. He
+                    delivered all the tasks on time and done quality work. Will
+                    definitely work with him again!!! Thanks.
+                    <div className={"clientName" + " text-right"}>
+                        -- Anna Rob.
+                    </div>
+                </div>
             </div>
         </section>
-
-        <Footer />
-    </div>
+    </LayoutMaster>
 );

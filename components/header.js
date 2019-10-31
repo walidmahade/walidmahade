@@ -3,7 +3,6 @@ import "../styles/global.scss";
 import Link from 'next/link'
 import NavLink from './Link'
 import Head from 'next/head'
-// import Logo from "/images/logo.png";
 // import Favicon from "/images/favicon.ico";
 import Separator from "./global/separator";
 
@@ -27,7 +26,7 @@ export default class Header extends React.Component {
     render() {
         return (
             <header>
-                <nav className="mainMenu">
+                <nav className="main-menu">
                     <Head>
                         <title>Mahade Walid | Full Stack Web Developer</title>
                         <link rel="shortcut icon" href="/images/favicon.ico" />
@@ -40,13 +39,11 @@ export default class Header extends React.Component {
                     <div className="brand">
                         <Link href="/">
                             {/*<img src="/images/logo.png" alt="Mahade Walid" />*/}
-                            <span>
-                                M<small>ahade</small> W<small>alid</small>
-                            </span>
+                            <span>Mahade Walid <small className="dot"></small></span>
                         </Link>
                     </div>
 
-                    <div className="wrapper">
+                    <div className="nav-wrapper">
                         <ul>
                             <li>
                                 <NavLink href='/'>Home</NavLink>

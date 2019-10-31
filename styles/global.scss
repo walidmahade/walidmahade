@@ -1,3 +1,5 @@
+@import "nprogress";
+
 // all my variables
 @import "typography";
 @import "vars";
@@ -38,4 +40,10 @@ SVG Icons - svgicons.sparkk.fr
 .svg-icon circle {
     stroke: #000;
     stroke-width: 1;
+}
+
+/*------ body ------*/
+body {
+     border-top: 8px solid #000;
+    padding-top: 25px;
 }

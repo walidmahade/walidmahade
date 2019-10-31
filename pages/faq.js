@@ -1,5 +1,6 @@
 import React from "react";
-import Page from "../components/layoutmaster";
+import LayoutMaster from "../components/layoutmaster";
+import Container from "../components/global/container";
 import "../styles/faq.scss";
 
 const Faq = () => (
@@ -33,9 +34,11 @@ const Faq = () => (
 
 export default () => (
     <div className="App text-center">
-        <Page>
-            <Faq />
-        </Page>
+        <LayoutMaster>
+            <Container>
+                <Faq />
+            </Container>
+        </LayoutMaster>
     </div>
 );
 
