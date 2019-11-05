@@ -1,7 +1,7 @@
 import React from "react";
 import LayoutMaster from "../components/layoutmaster";
 import Container from "../components/global/container";
-import "../styles/faq.scss";
+import "../styles/pages/faq.scss";
 
 const Faq = () => (
     <section className="text-left" id="faq">

@@ -14,11 +14,41 @@
 }
 
 .about {
-    h1 {
-        font-size: 17px;
-        font-weight: 900;
-        line-height: 1.2;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    align-content: center;
+
+    .left {
+        text-align: left;
+        width: 55%;
+
+        .title {
+            font-weight: 600;
+            line-height: 1.2;
+            font-size: 45px;
+            margin-bottom: 10px;
+        }
+
+        .para {
+            line-height: 1.6;
+        }
     }
+
+    .right {
+        width: 45%;
+        max-width: 200px;
+        background: #f9f9f9;
+        padding: 50px;
+        border-radius: 5px;
+
+        img {
+            border-radius: 50%;
+            width: 100%;
+            box-shadow: 5px 14px 20px 0 rgba(#000, .1);
+        }
+    }
+
 }
 
 .tech {
@@ -58,21 +88,23 @@
 }
 
 .testimonials {
-    width: 1300px;
+    //width: 1300px;
     max-width: 96%;
-    margin: 0 auto;
+    margin: 25px auto 0 auto;
 
     .testimonial {
         border: 1px solid rgba(#000, 0.05);
         border-radius: 3px;
-        width: 30%;
+        width: 43%;
         text-align: left;
-        padding: 15px;
+        padding: 23px;
         font-weight: 400;
         display: flex;
-        // justify-content: center;
+        justify-content: space-between;
         align-items: center;
         flex-wrap: wrap;
+        line-height: 1.6;
+        background-color: #f7f7f7;
 
         .clientName {
             width: 100%;

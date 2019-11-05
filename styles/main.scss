@@ -1,18 +1,18 @@
-@import "nprogress";
+@import "components/nprogress";
 
 // all my variables
-@import "typography";
-@import "vars";
-@import "mixins";
-@import "reset";
-@import "helpers";
-@import "container";
-@import "separator";
+@import "components/typography";
+@import "components/vars";
+@import "base/mixins";
+@import "base/reset";
+@import "base/helpers";
+@import "components/container";
+@import "components/separator";
 
-@import "grid";
+@import "components/grid";
 
-@import "header";
-@import "footer";
+@import "sections/header";
+@import "sections/footer";
 
 
 /*====================
@@ -43,7 +43,7 @@ SVG Icons - svgicons.sparkk.fr
 }
 
 /*------ body ------*/
-body {
-     border-top: 8px solid #000;
-    padding-top: 25px;
-}
+//body {
+//     border-top: 8px solid #000;
+//    padding-top: 25px;
+//}
