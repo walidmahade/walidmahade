@@ -4,7 +4,7 @@
     margin: 0 0 50px 0;
     box-sizing: border-box;
 
-    img {
+    img {  
         display: block;
         width: 100%;
         // width: 100px;
@@ -18,10 +18,17 @@
     justify-content: space-between;
     align-items: center;
     align-content: center;
+    flex-wrap: wrap;
+    text-align: center;
 
     .left {
-        text-align: left;
-        width: 55%;
+        text-align: center;
+        width: 100%;
+
+        @include lg {
+            width: 55%;
+            text-align: left;
+        }
 
         .title {
             font-weight: 600;
@@ -36,11 +43,17 @@
     }
 
     .right {
-        width: 45%;
-        max-width: 200px;
+        width: 100%;
+        max-width: 300px;
         background: #f9f9f9;
         padding: 50px;
         border-radius: 5px;
+        margin: 0 auto;
+
+        @include lg {
+            width: 45%;
+            margin:  0;
+        }
 
         img {
             border-radius: 50%;
@@ -89,13 +102,13 @@
 
 .testimonials {
     //width: 1300px;
-    max-width: 96%;
+    max-width: 100%;
     margin: 25px auto 0 auto;
 
     .testimonial {
         border: 1px solid rgba(#000, 0.05);
         border-radius: 3px;
-        width: 43%;
+        width: 100%;
         text-align: left;
         padding: 23px;
         font-weight: 400;
@@ -105,6 +118,10 @@
         flex-wrap: wrap;
         line-height: 1.6;
         background-color: #f7f7f7;
+
+        @include md {
+            width: 48.8%;
+        }
 
         .clientName {
             width: 100%;
@@ -125,6 +142,11 @@
         font-weight: bold;
         margin: 0 6px;
         font-family: inherit;
+        font-size: 14px;
+
+        @include lg {
+            font-size: 18px;
+        }
     }
 }
 

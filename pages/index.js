@@ -1,14 +1,14 @@
 import React from "react";
 import LayoutMaster from "../components/layoutmaster";
 import Container from "../components/global/container";
-import "../styles/pages/index.scss";
+// import "../styles/pages/index.scss";
 import Link from "next/link";
 
 export default () => (
     <LayoutMaster className="text-center">
         <Container>
             {/*<section className={"me mt-35 mb-35"}>*/}
-                 {/*<img src="/images/me-spray.jpg" alt="walid_mahade" />*/}
+            {/*<img src="/images/me-spray.jpg" alt="walid_mahade" />*/}
             {/*</section>*/}
             <section className="about">
                 <div className="left">
@@ -20,7 +20,7 @@ export default () => (
                     <section className={"moreLinks" + " mt-35 mb-35"}>
                         <p>
                             See also:
-                            <Link href={"/work"}><a>Work.</a></Link>
+                            <Link href={"/portfolio"}><a>Work.</a></Link>
                             <Link href={"/personal-values"}><a>Personal Values.</a></Link>
                             <Link href={"/blog"}><a>Articles.</a></Link>
                             <Link href={"/video"}><a>Videos.</a></Link>
