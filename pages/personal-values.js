@@ -7,10 +7,10 @@ export default () => (
     <LayoutMaster>
         <Container>
             <Head>
-                <title>About | Walid Mahade</title>
+                <title>Personal values | Walid Mahade</title>
             </Head>
 
-            <h2 className="bold text-center">Videos</h2>
+            <h2 className="bold text-center">Personal values</h2>
             <p className="para text-center">
                 Be a part of my journey.
             </p>

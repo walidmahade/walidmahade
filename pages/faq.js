@@ -5,6 +5,11 @@ import "../styles/pages/faq.scss";
 
 const Faq = () => (
     <section className="text-left" id="faq">
+        <h2 className="bold text-center">FAQ</h2>
+        <p className="para text-center">
+            Be a part of my journey.
+        </p>
+
         <ol>
             <li className="faq-q">
                 <h3 className="q">How old are you?</h3>

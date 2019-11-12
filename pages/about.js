@@ -5,11 +5,15 @@ import LayoutMaster from "../components/layoutmaster";
 
 export default () => (
     <LayoutMaster>
-    <Container>
+        <Container>
             <Head>
                 <title>About | Walid Mahade</title>
             </Head>
-            <p>Such wow. Very React.</p>
+
+            <h2 className="bold text-center">About Me</h2>
+            <p className="para text-center">
+                Be a part of my journey.
+            </p>
         </Container>
     </LayoutMaster>
 );
