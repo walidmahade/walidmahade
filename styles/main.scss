@@ -1,3 +1,9 @@
+*,
+*::after,
+*::before {
+    box-sizing: border-box;
+}
+
 @import "components/nprogress";
 
 // all my variables
@@ -10,6 +16,7 @@
 @import "components/separator";
 
 @import "components/grid";
+@import "components/btn";
 
 @import "sections/header";
 @import "sections/footer";
