@@ -3,7 +3,7 @@ import Container from "../components/global/container";
 import Head from "next/head";
 import LayoutMaster from "../components/layoutmaster";
 import emailjs from 'emailjs-com';
-import "../styles/pages/contact.scss";
+// import "../styles/pages/contact.scss";
 
 class Contact extends React.Component {
     constructor(props) {

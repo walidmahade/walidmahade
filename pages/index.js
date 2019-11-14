@@ -7,9 +7,6 @@ import Link from "next/link";
 export default () => (
     <LayoutMaster className="text-center">
         <Container>
-            {/*<section className={"me mt-35 mb-35"}>*/}
-            {/*<img src="/images/me-spray.jpg" alt="walid_mahade" />*/}
-            {/*</section>*/}
             <section className="about">
                 <div className="left">
                     <h2 className="title">Hi, I am Mahade.</h2>

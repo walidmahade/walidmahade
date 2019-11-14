@@ -11,6 +11,7 @@ export default () => (
             </Head>
 
             <h2 className="bold text-center">Blog</h2>
+            
             <p className="para text-center">
                 Be a part of my journey.
             </p>

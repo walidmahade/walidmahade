@@ -5,7 +5,7 @@ import Link from 'next/link'
 export default () => (
     <footer className={"footer" + " pt-35 pb-35 text-center"}>
         <div className="mt-20 mb-35">
-            <Separator /> 
+            <Separator />
         </div>
 
         <section className={"moreLinks" + " mt-35 mb-35"}>
@@ -67,6 +67,10 @@ export default () => (
                     />
                 </svg>
             </div>
+        </div>
+
+        <div className="credits">
+            <div>Icons made by <a href="https://www.flaticon.com/authors/dave-gandy" title="Dave Gandy">Dave Gandy</a> from <a href="https://www.flaticon.com/" title="Flaticon">www.flaticon.com</a></div>
         </div>
     </footer>
 );
