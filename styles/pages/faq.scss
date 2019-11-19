@@ -1,5 +1,6 @@
 #faq {
     ol {
+        margin-left: 25px;
         list-style: decimal;
     }
 
@@ -9,5 +10,17 @@
 
     .ans {
         margin-top: 10px;
+    }
+}
+
+
+.faq-page {
+    .container {
+        max-width: 800px;
+    }
+
+    .para {
+        margin-left: 0;
+        margin-right: 0;
     }
 }

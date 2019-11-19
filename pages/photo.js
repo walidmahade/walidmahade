@@ -10,10 +10,12 @@ export default () => (
                 <title>Photos | Walid Mahade</title>
             </Head>
 
-            <h2 className="bold text-center">Photos</h2>
-            <p className="para text-center">
-                Be a part of my journey.
-            </p>
+            <div className="page-head">
+                <h2 className="bold text-center">Photos</h2>
+                <p className="para text-center">
+                    Be a part of my journey.
+                </p>
+            </div>
         </Container>
     </LayoutMaster>
 );

@@ -1,30 +1,24 @@
 const featured = [
     {
-        id: "1", img: "images/portfolio/voxtell.png", title: "Voxtell", url: "https://voxtell.com"
+        id: "1", img: "images/portfolio/voxtell.png", title: "Telephone Company", url: "https://mw-voxtell.netlify.com/home", localUrl: "/work/voxtell"
     },
     {
-        id: "2", img: "images/portfolio/voxtell.png", title: "Voxtell 2", url: "https://voxtell.com"
+        id: "2", img: "images/portfolio/social-network.png", title: "Social Network", url: "https://mw-social-network.netlify.com/", localUrl: "/work/social-network"
     },
     {
-        id: "3", img: "images/portfolio/voxtell.png", title: "Voxtell 3", url: "https://voxtell.com"
+        id: "3", img: "images/portfolio/realestate.png", title: "Real Estate", url: "https://mw-real-estate.netlify.com/", localUrl: "/work/real-estate"
     }
 ];
 
 const js = [
     {
-        id: "1", img: "images/portfolio/voxtell.png", title: "Voxtell js", url: "https://voxtell.com"
-    },
-    {
-        id: "2", img: "images/portfolio/voxtell.png", title: "Voxtell 2 js", url: "https://voxtell.com"
+        id: "1", img: "images/portfolio/pricing-calculator.png", title: "Price Calculator", url: "https://codepen.io/mahade_walid_pro/pen/poopPJK", localUrl: "/work/voxtell"
     }
 ];
 
 const wp = [
     {
-        id: "1", img: "images/portfolio/voxtell.png", title: "Voxtell wp", url: "https://voxtell.com"
-    },
-    {
-        id: "2", img: "images/portfolio/voxtell.png", title: "Voxtell 2 wp", url: "https://voxtell.com"
+        id: "1", img: "images/portfolio/voxtell.png", title: "Telephone Company", url: "https://mw-voxtell.netlify.com/home", localUrl: "/work/voxtell"
     }
 ];
 

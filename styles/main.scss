@@ -17,14 +17,18 @@
 
 @import "components/grid";
 @import "components/btn";
+@import "components/notifications";
 
 @import "sections/header";
 @import "sections/footer";
 
-
 @import "pages/index.scss";
 @import "pages/contact.scss";
 @import "pages/portfolio";
+@import "pages/faq.scss";
+@import "pages/blog";
+@import "pages/personal-values";
+@import "pages/about";
 
 
 /*====================

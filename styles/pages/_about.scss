@@ -1,0 +1,51 @@
+.about-page {
+  .container {
+    max-width: 800px;
+  }
+
+  .page-head .para {
+    max-width: 600px;
+    margin-left: 0;
+    line-height: 1.7;
+  }
+
+  .resume {
+    line-height: 1.7;
+
+    ol {
+      list-style: decimal;
+      margin-left: 35px;
+
+      & > li {
+        margin: 20px 0;
+      }
+
+      .lt {
+        font-weight: bold;
+      }
+
+      a {
+        text-decoration: underline;
+      }
+
+      ul {
+        margin-left: 20px;
+        margin-top: 10px;
+        font-size: 16px;
+        line-height: 1.7;
+
+        ul {
+          margin-top: 0;
+          margin-bottom: 5px;
+        }
+        li {
+          line-height: 1.7;
+        }
+      }
+    }
+
+    ul {
+      list-style: disc;
+    }
+  }
+}

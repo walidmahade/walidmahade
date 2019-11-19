@@ -3,6 +3,7 @@ import Container from "../components/global/container";
 import Head from "next/head";
 import LayoutMaster from "../components/layoutmaster";
 import FilterContent from "../components/filterContent"
+// import Close from "../components/icons/close";
 import { featured, js, wp } from "../components/portfolioContent";
 
 export default class Portfolio extends React.Component {
@@ -36,10 +37,12 @@ export default class Portfolio extends React.Component {
                         <title>Portfolio | Walid Mahade</title>
                     </Head>
 
-                    <h2 className="bold text-center">Work I am proud of</h2>
-                    <p className="para text-center">
-                        Be a part of my journey.
-                    </p>
+                    <div className="page-head">
+                        <h2 className="bold text-center">Work I am proud of</h2>
+                        <p className="para text-center">
+                            Be a part of my journey.
+                        </p>
+                    </div>
                 </Container>
 
                 <Container>
@@ -62,10 +65,9 @@ export default class Portfolio extends React.Component {
 
                 <Container>
                     <section id="filter-content">
-                        <FilterContent data={filterData} />
+                        <FilterContent data={filterData} handlePortfolioItemClick={() => this.showModal()} />
                     </section>
                 </Container>
-
             </LayoutMaster>
         );
     }

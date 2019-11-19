@@ -1,29 +1,39 @@
 import React from "react";
 import LayoutMaster from "../components/layoutmaster";
 import Container from "../components/global/container";
-import "../styles/pages/faq.scss";
+// import "../styles/pages/faq.scss";
 
 const Faq = () => (
     <section className="text-left" id="faq">
-        <h2 className="bold text-center">FAQ</h2>
-        <p className="para text-center">
-            Be a part of my journey.
-        </p>
+        <div className="page-head">
+            <h2 className="bold">FAQ</h2>
+            <p className="para">
+                Important questions answered.
+            </p>
+        </div>
 
         <ol>
             <li className="faq-q">
-                <h3 className="q">How old are you?</h3>
+                <h3 className="q">How old am I?</h3>
                 <p className="ans">24</p>
             </li>
-            <li className="faq-q">
-                <h3 className="q">Why do you want to a web developer?</h3>
-                <p className="ans">
-                    I like hacking. Thats how I got into web development.
-                </p>
-            </li>
+            {/*<li className="faq-q">*/}
+            {/*    <h3 className="q">Why do you want to be a web developer?</h3>*/}
+            {/*    <p className="ans">*/}
+            {/*        I like programming in general and web is the biggest platform*/}
+            {/*    </p>*/}
+            {/*</li>*/}
             <li className="faq-q">
                 <h3 className="q">My current tech stack?</h3>
-                <p className="ans">Javascript, Php, HTML, CSS</p>
+                <p className="ans">WordPress, MySQL, Javascript, Php, HTML, CSS</p>
+            </li>
+            <li className="faq-q">
+                <h3 className="q">What do I want to learn next?</h3>
+                <p className="ans">React, Vue, Firebase, NodeJs, Flutter, Marketing</p>
+            </li>
+            <li className="faq-q">
+                <h3 className="q">What do I  learn from?</h3>
+                <p className="ans">LinkedIn Learning, Laracast, FreeCodeCamp, YouTube</p>
             </li>
             <li className="faq-q">
                 <h3 className="q">Hobbies?</h3>
@@ -31,7 +41,7 @@ const Faq = () => (
             </li>
             <li className="faq-q">
                 <h3 className="q">Future plan?</h3>
-                <p className="ans">Happy Death.</p>
+                <p className="ans">Machine learning, creator, writer.</p>
             </li>
         </ol>
     </section>
@@ -39,12 +49,10 @@ const Faq = () => (
 
 export default () => (
     <div className="App text-center">
-        <LayoutMaster>
+        <LayoutMaster className="faq-page">
             <Container>
                 <Faq />
             </Container>
         </LayoutMaster>
     </div>
 );
-
-// integrate a database to save questions and have search functionality

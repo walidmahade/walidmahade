@@ -17,10 +17,10 @@ export default () => (
                     <section className={"moreLinks" + " mt-35 mb-35"}>
                         <p>
                             See also:
-                            <Link href={"/portfolio"}><a>Work.</a></Link>
+                            <Link href={"/portfolio"}><a>Portfolio.</a></Link>
                             <Link href={"/personal-values"}><a>Personal Values.</a></Link>
-                            <Link href={"/blog"}><a>Articles.</a></Link>
-                            <Link href={"/video"}><a>Videos.</a></Link>
+                            {/*<Link href={"/blog"}><a>Articles.</a></Link>*/}
+                            <Link href={"/video"}><a>FAQ.</a></Link>
                         </p>
                     </section>
                 </div>

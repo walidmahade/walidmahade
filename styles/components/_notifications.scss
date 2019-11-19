@@ -1,0 +1,46 @@
+.notification {
+    padding: 15px 40px 15px 20px;
+    background-color: white;
+    border-left: 4px solid #545454;
+    box-shadow: 0 0 10px 0 rgba(#000, .1);
+    max-width: 350px;
+    position: relative;
+    border-radius: 0 5px 5px 0;
+    position: fixed;
+    left: 50%;
+    transform: translateX(-50%);
+    bottom: -200px;
+    visibility: hidden;
+    z-index: 99;
+    transition: all .4s ease-in-out;
+
+    &.show {
+        bottom: 50px;
+        visibility: visible;
+    }
+
+    &.success {
+        border-color: #a5dc69;
+    }
+
+    &.error {
+        border-color: #ff5e5e;
+    }
+
+    .message {
+        font-size: 15px;
+    }
+
+    .close {
+        position: absolute;
+        right: 10px;
+        top: 50%;
+        transform: translateY(-50%);
+        cursor: pointer;
+        
+        svg {
+            height: 20px;
+            width: 20px;
+        }
+    }
+}
