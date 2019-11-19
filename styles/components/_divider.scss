@@ -1,0 +1,24 @@
+.divider {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  align-content: center;
+
+  &--left {
+    padding-bottom: 20px;
+    svg {
+      height: 30px;
+      width: 30px;
+      margin-left: -20px;
+    }
+
+    .dl {
+      height: 1px;
+      width: 250px;
+      background: rgba(#000, .2);
+      align-self: flex-end;
+    }
+  }
+
+
+}

@@ -43,7 +43,7 @@ export default () => (
 
             {/* codepen */}
             <a href="https://codepen.io/mahade_walid_pro" target="_blank" className={"icon"}>
-                <img src="images/codepen.png" alt="codepen icon"/>
+                <img src="/images/codepen.png" alt="codepen icon"/>
             </a>
 
             {/* instagram */}
@@ -68,7 +68,9 @@ export default () => (
         </div>
 
         <div className="credits">
-            <div>Icons made by <a href="https://www.flaticon.com/authors/dave-gandy" title="Dave Gandy">Dave Gandy</a> from <a href="https://www.flaticon.com/" title="Flaticon">www.flaticon.com</a></div>
+            <div>Icons made by <a href="https://www.flaticon.com/authors/dave-gandy" title="Dave Gandy">Dave Gandy</a>,
+                <a href="https://www.flaticon.com/authors/freepik" title="Freepik">Freepik </a>
+                 from <a href="https://www.flaticon.com/" title="Flaticon">www.flaticon.com </a></div>
         </div>
     </footer>
 );
