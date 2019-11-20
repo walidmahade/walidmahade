@@ -7,11 +7,11 @@ export default () => (
     <LayoutMaster className="portfolio-item-page">
         <Container>
             <Head>
-                <title>Voxtell | Walid Mahade</title>
+                <title>Social Network | Walid Mahade</title>
             </Head>
 
             <div className="page-head">
-                <h2 className="bold text-center">Voxtell Project Details</h2>
+                <h2 className="bold text-center">Social Network Project Details</h2>
             </div>
 
             <div className="project-features">
