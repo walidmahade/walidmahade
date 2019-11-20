@@ -66,7 +66,7 @@ export default () => (
                     <DividerLeft />
 
                     <li>
-                        <p className="lt">Experience (descendent order by time):</p>
+                        <p className="lt">Experience</p>
                         <ul>
                             <li>
                                 <b style={{textDecoration: 'underline'}}>October 2019 - Gutenberg ReactJs blocks:</b> Developed 34 pages from design in html css. Then converted them to ReactJs re-usable blocks for WordPress Gutenberg editor. Also used rest api to fetch products & blog posts and implemented search, filter functionality | <a
