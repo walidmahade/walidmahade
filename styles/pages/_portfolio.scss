@@ -2,11 +2,19 @@
     width: 100%;
     display: flex;
     justify-content: center;
+    //overflow: hidden;
 }
 
 .portfolio-nav {
-    padding: 6px 25px;
-    margin: 0 23px;
+    padding: 4px 10px;
+    margin: 0 5px;
+    font-size: 14px;
+
+    @media screen and (min-width: 500px) {
+        padding: 6px 25px;
+        margin: 0 23px;
+        font-size: 16px;
+    }
 
     &.active {
         background-color: #a5dc69;

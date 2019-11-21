@@ -26,11 +26,15 @@
 //}
 .main-menu {
     display: flex;
-    justify-content: space-between;
+    justify-content: center;
     flex-wrap: wrap;
     max-width: 900px;
     margin: 0 auto 0 auto;
     padding: 15px 0;
+
+    @media screen and (min-width: 500px) {
+        justify-content: space-between;
+    }
 }
 
 .nav-wrapper {
@@ -88,8 +92,12 @@
         align-items: center;
 
         svg {
-            width: 50px;
+            width: 35px;
             margin-right: 15px;
+
+            @media screen and (min-width: 500px) {
+                width: 50px;
+            }
         }
 
         span {
