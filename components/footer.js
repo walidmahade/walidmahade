@@ -43,7 +43,13 @@ export default () => (
 
             {/* codepen */}
             <a href="https://codepen.io/mahade_walid_pro" target="_blank" className={"icon"}>
-                <img src="/images/codepen.png" alt="codepen icon"/>
+                <img src="/images/codepen.png" alt="codepen icon" />
+            </a>
+
+            {/* dev to */}
+
+            <a href="https://dev.to/walidmahade_45" target="_blank" className={"icon"}>
+                <img src="https://d2fltix0v2e0sb.cloudfront.net/dev-badge.svg" alt="Mahade Walid's DEV Profile" />
             </a>
 
             {/* instagram */}
@@ -70,7 +76,7 @@ export default () => (
         <div className="credits">
             <div>Icons made by <a href="https://www.flaticon.com/authors/dave-gandy" title="Dave Gandy">Dave Gandy</a>,
                 <a href="https://www.flaticon.com/authors/freepik" title="Freepik">Freepik </a>
-                 from <a href="https://www.flaticon.com/" title="Flaticon">www.flaticon.com </a></div>
+                from <a href="https://www.flaticon.com/" title="Flaticon">www.flaticon.com </a></div>
         </div>
     </footer>
 );
