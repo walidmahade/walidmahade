@@ -3,9 +3,14 @@ import LayoutMaster from "../components/layoutmaster";
 import Container from "../components/global/container";
 // import "../styles/pages/index.scss";
 import Link from "next/link";
+import Head from "next/head";
 
 export default () => (
     <LayoutMaster className="text-center">
+        <Head>
+            <meta name="description" content="Top rated Full Stack Web Develoepr living in Bangladesh. Loves to work with JavaScript, PHP, WordPress, ReactJS." />
+            <meta name="keywords" content="Top web developer BD,Top web developer Bangladesh, Best Web Developer Bangladesh, hire wordpress developer bangladesh" />
+        </Head>
         <Container>
             <section className="about">
                 <div className="left">

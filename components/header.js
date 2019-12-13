@@ -33,10 +33,10 @@ export default class Header extends React.Component {
 
                     <div className="brand">
                         <Link href="/">
-                            <div className={"wrap"}>
+                            <h1 className={"wrap"}>
                                 <Logo />
                                 <span>Mahade Walid <small className="dot" /></span>
-                            </div>
+                            </h1>
                         </Link>
                     </div>
 
