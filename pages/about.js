@@ -56,7 +56,7 @@ export default () => (
                     <li>
                         <p className="lt">Education</p>
                         <ul>
-                            <li>2014-2016: Uni, Bachelors in Physics(Dropped out)</li>
+                            <li>2014-2016: Uni, Bachelors in Physics</li>
                             <li>2012-2014: College, Higher Secondary Certificate.</li>
                             <li>2010-2012: School, Secondary School Certificate.</li>
                             {/*add certificate testimonials images on hover*/}

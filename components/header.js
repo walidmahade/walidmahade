@@ -1,8 +1,8 @@
 import React from "react";
 import "../styles/main.scss";
-import Link from 'next/link'
-import NavLink from './Link'
-import Head from 'next/head'
+import Link from 'next/link';
+import NavLink from './Link';
+import Head from 'next/head';
 import Logo from "./icons/logo";
 // import Favicon from "/images/favicon.ico";
 // import Separator from "./global/separator";
@@ -28,7 +28,7 @@ export default class Header extends React.Component {
                 <nav className="main-menu">
                     <Head>
                         <title>Mahade Walid | Full Stack Web Developer</title>
-                        <link rel="shortcut icon" href="/images/favicon.ico" />
+                        <link rel="shortcut icon" href="/images/favicon.png" />
                     </Head>
 
                     <div className="brand">
