@@ -34,7 +34,7 @@ export default class Portfolio extends React.Component {
             <LayoutMaster>
                 <Container>
                     <Head>
-                        <title>Portfolio | Walid Mahade</title>
+                        <title>Portfolio | Mahade Walid</title>
                     </Head>
 
                     <div className="page-head">

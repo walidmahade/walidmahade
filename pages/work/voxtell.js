@@ -7,7 +7,7 @@ export default () => (
     <LayoutMaster className="portfolio-item-page">
         <Container>
             <Head>
-                <title>Voxtell | Walid Mahade</title>
+                <title>Voxtell | Wordpress Developer | Mahade Walid</title>
             </Head>
 
             <div className="page-head">

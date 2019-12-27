@@ -12,7 +12,7 @@ const featured = [
 
 const js = [
     {
-        id: "1", img: "images/portfolio/pricing-calculator.png", title: "Price Calculator", url: "https://codepen.io/mahade_walid_pro/pen/poopPJK", localUrl: "#"
+        id: "1", img: "images/portfolio/pricing-calculator.png", title: "Price Calculator", url: "https://codepen.io/mahade_walid_pro/pen/poopPJK", localUrl: "/work/price-calculator"
     }
 ];
 

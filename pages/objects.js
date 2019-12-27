@@ -7,7 +7,7 @@ export default () => (
     <LayoutMaster>
         <Container>
             <Head>
-                <title>Objects | Walid Mahade</title>
+                <title>Objects | Mahade Walid</title>
             </Head>
 
             <div className="page-head">

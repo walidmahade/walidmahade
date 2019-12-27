@@ -7,7 +7,7 @@ export default () => (
     <LayoutMaster className="portfolio-item-page">
         <Container>
             <Head>
-                <title>Real Estate | Walid Mahade</title>
+                <title>Real Estate Website Developer | Mahade Walid</title>
             </Head>
 
             <div className="page-head">

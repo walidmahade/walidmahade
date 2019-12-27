@@ -8,7 +8,7 @@ export default () => (
     <LayoutMaster className={"about-page"}>
         <Container>
             <Head>
-                <title>About | Walid Mahade</title>
+                <title>About | Mahade Walid</title>
             </Head>
 
             <div className="page-head">
