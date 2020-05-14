@@ -37,8 +37,8 @@ export default () => (
                         <div className="img">
                             <img src="images/posts/cookies.jpg" alt="cookies" />
                         </div>
-                        <div className="title">Full Stack Authentication: Cookies and Local Storage</div>
-                        <div className="date">October 29th, 2019</div>
+                        <div className="title">Becoming a better developer: Debugging</div>
+                        <div className="date">May 15th, 2020</div>
                     </div>
 
                     <div className="bp-item">
