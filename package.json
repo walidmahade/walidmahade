@@ -7,14 +7,14 @@
     "build": "next build",
     "start": "next start",
     "export": "next export",
-    "deploy": "npm run build && npm run export",
-    "sitemap": "node sitemap_generator.js"
+    "sitemap": "node sitemap_generator.js",
+    "deploy": "npm run build && npm run export && npm run sitemap"
   },
   "dependencies": {
     "@zeit/next-sass": "^1.0.1",
     "emailjs-com": "^2.4.1",
-    "next": "^9.4.0",
-    "nextjs-sitemap-generator": "^0.4.1",
+    "next": "^9.4.4",
+    "nextjs-sitemap-generator": "^0.4.2",
     "node-sass": "^4.14.1",
     "nprogress": "^0.2.0",
     "react": "16.11.0",
