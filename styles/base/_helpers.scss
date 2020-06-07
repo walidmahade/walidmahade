@@ -13,6 +13,26 @@
 .text-left {
     text-align: left;
 }
+
+.para {
+    line-height: 1.7;
+}
+.link {
+    border-bottom: 1px solid $primary;
+    background: transparent;
+    box-decoration-break: clone;
+    text-shadow: none;
+    transition: all .3s ease-in-out;
+
+    &:hover {
+        background: linear-gradient(90deg, $green2, $green3);
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent;
+        -webkit-box-decoration-break: clone;
+        box-decoration-break: clone;
+        text-shadow: none;
+    }
+}
 // margins top-------------------------------
 .mt-5 {
     margin-top: 5px;

@@ -4,6 +4,8 @@ import Container from "../components/global/container";
 // import "../styles/pages/index.scss";
 import Link from "next/link";
 import Head from "next/head";
+import DividerLeft from "../components/dividers/divider-left";
+import DividerCenter from "../components/dividers/divider-center";
 
 export default () => (
     <LayoutMaster className="text-center">
@@ -36,10 +38,15 @@ export default () => (
             </section>
         </Container>
 
+
+
         <section className=" mt-35 mb-35 pt-35">
+
+            <DividerCenter />
+
             <Container>
                 <div className={"tech" + " mb-35 mt-35"}>
-                    <h2 className={"bold"}>Other People's Opinions</h2>
+                    <h2 className={"bold"}>People I have worked with.</h2>
                 </div>
                 <div className={"testimonials" + " d-flex j-sb"}>
                     <div className={"testimonial" + " mb-20"}>

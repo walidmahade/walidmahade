@@ -43,7 +43,7 @@ export default class Header extends React.Component {
                     <div className="nav-wrapper">
                         <ul>
                             <li>
-                                <NavLink href='/about'>Me</NavLink>
+                                <NavLink href='/about'>About</NavLink>
                             </li>
                             <li>
                                 <NavLink href='/portfolio'>Portfolio</NavLink>

@@ -40,7 +40,7 @@ export default class Portfolio extends React.Component {
                     <div className="page-head">
                         <h2 className="bold text-center">Work I am proud of</h2>
                         <p className="para text-center">
-                            Be a part of my journey.
+                            Work I am proud of.
                         </p>
                     </div>
                 </Container>

@@ -1,43 +1,16 @@
-.field-wrap {
-    padding: 25px;
-
-    label {
-        display: none;
-    }
-}
-
-.form-control {
-    font-family: inherit;
-    display: block;
-    width: 100%;
-    resize: none;
-    border-radius: 5px;
-    box-shadow: none;
-    outline: none;
-    border: 2px solid #ebebeb;
-    padding: 12px 15px;
-    font-size: 16px;
-
-    &::placeholder {
-        font-size: 16px;
-        opacity: .6;
-    }
-}
-
-.contact-form {
-    display: block;
-    width: 100%;
-    overflow: hidden;
-}
-
-.form-wrap {
-    max-width: 600px;
-    margin: 0 auto;
-}
-
 .page-head {
     .para {
-        max-width: 500px;
+        max-width: 400px;
         margin: 35px auto;
     }
+}
+
+.page-contact {
+    min-height: 500px;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    align-content: center;
+    flex-direction: column;
+    justify-content: center;
 }
