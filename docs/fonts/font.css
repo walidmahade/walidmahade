@@ -1,0 +1,48 @@
+@font-face {
+  font-family: AlienwareRegular;
+  src: url('https://media.alienwarearena.com/fonts/Alienware-Regular.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: AlienwareItalic;
+     src: url('https://media.alienwarearena.com/fonts/Alienware-Italic_0.ttf') format('truetype');
+     font-weight: normal;
+     font-style: normal;
+}
+@font-face {
+  font-family: AlienwareBold;
+     src: url('https://media.alienwarearena.com/fonts/Alienware-Bold.ttf') format('truetype');
+     font-weight: normal;
+     font-style: normal;
+}
+@font-face {
+  font-family: AlienwareBoldItalic;
+     src: url('https://media.alienwarearena.com/fonts/Alienware-BoldItalic.ttf') format('truetype');
+     font-weight: normal;
+     font-style: normal;
+}
+@font-face {
+  font-family: AlienwareLight;
+     src: url('https://media.alienwarearena.com/fonts/Alienware-Light.ttf') format('truetype');
+     font-weight: normal;
+     font-style: normal;
+}
+@font-face {
+  font-family: AlienwareLightItalic;
+     src: url('https://media.alienwarearena.com/fonts/Alienware-LightItalic_0.ttf') format('truetype');
+     font-weight: normal;
+     font-style: normal;
+}
+@font-face {
+  font-family: AlienwareMedium;
+     src: url('https://media.alienwarearena.com/fonts/Alienware-Medium.ttf') format('truetype');
+     font-weight: normal;
+     font-style: normal;
+}
+@font-face {
+  font-family: AlienwareMediumItalic;
+     src: url('https://media.alienwarearena.com/fonts/Alienware-MediumItalic_0.ttf') format('truetype');
+     font-weight: normal;
+     font-style: normal;
+}
