@@ -13,7 +13,7 @@
   "dependencies": {
     "@zeit/next-sass": "^1.0.1",
     "emailjs-com": "^2.4.1",
-    "next": "^9.4.4",
+    "next": "^11.1.0",
     "nextjs-sitemap-generator": "^0.4.2",
     "node-sass": "^4.14.1",
     "nprogress": "^0.2.0",
